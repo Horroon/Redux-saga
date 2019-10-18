@@ -1,6 +1,7 @@
-const Subtract = (payload) => {
+const Subtract = () => {
 	return {
-		type: 'Subtract',
-		payload: payload
+		type: 'Subtract'
 	};
 };
+
+export default Subtract

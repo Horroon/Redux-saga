@@ -1,5 +1,5 @@
 const AddAction = (payload) => {
-	return { type: 'Add', payload: payload };
+	return { type: 'Add'};
 };
 
 export default AddAction;
